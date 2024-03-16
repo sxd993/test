@@ -3,7 +3,37 @@ html {
   margin: 0;
   padding: 0;
   height: 2000px;
+  width: 100%;
   background-color: #fff;
+  font-family: "Courier New", monospace;
+}
+
+.header {
+  top: 0;
+  left: 0;
+  padding: 20px 5%;
+  background: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 100;
+}
+.logo {
+  font-size: 35px;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+  background-color: white;
+  color: black;
+}
+
+.navbar a {
+  font-size: 25px;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+  margin-left: 50px;
+  margin-right: 0px
 }
 
 .banner {
@@ -19,7 +49,6 @@ html {
   width: 50%;
   height: 450px;
   float: left;
-  font-family: "Courier New", monospace;
   background: white;
   z-index: 1;
   border-radius: 15px;
