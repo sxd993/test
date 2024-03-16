@@ -10,8 +10,9 @@ html {
 
 .header {
   top: 0;
+  height: auto;
   left: 0;
-  padding: 20px 5%;
+  padding: 50px 5%;
   background: black;
   display: flex;
   justify-content: space-between;
@@ -19,12 +20,7 @@ html {
   z-index: 100;
 }
 .logo {
-  font-size: 35px;
-  color: #fff;
-  text-decoration: none;
-  font-weight: 600;
-  background-color: white;
-  color: black;
+  background-image: url("cat_logo.png");
 }
 
 .navbar a {
@@ -44,7 +40,7 @@ html {
 }
 
 .white_window {
-  margin: 300px 50px;
+  margin: 200px 50px;
   padding: 0px 0px 0px 0px;
   width: 50%;
   height: 450px;
@@ -117,8 +113,8 @@ html {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 1%px;
   width: 100%;
+  margin-top: 300px;
 }
 
 .cards h1 {
