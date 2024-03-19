@@ -130,6 +130,12 @@ html {
   margin: 0 auto;
 }
 
+.slide-wrapper {
+  position: relative;
+  max-width: 48rem;
+  margin: 0 auto;
+}
+
 .slider {
   display: flex;
   aspect-ratio: 16/9;
@@ -162,8 +168,4 @@ html {
   background-color: #fff;
   opacity: 0.75;
   transition: opacity ease 250ms;
-}
-
-.slider-nav a:hover {
-  opacity: 1;
 }
