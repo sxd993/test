@@ -134,6 +134,7 @@ html {
   position: relative;
   max-width: 48rem;
   margin: 0 auto;
+  overflow: hidden;
 }
 
 .slider {
@@ -144,6 +145,7 @@ html {
   scroll-behavior: smooth;
   box-shadow: 0 1.5rem 3rem --0.75rem hsla(0, 0%, 0%, 0.25);
   border-radius: 0.5rem;
+  overflow: hidden;
 }
 
 .slider img {
