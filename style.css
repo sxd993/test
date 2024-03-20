@@ -171,3 +171,18 @@ html {
   opacity: 0.75;
   transition: opacity ease 250ms;
 }
+@media only screen and (max-width: 768px) {
+  .white_window {
+    margin: 20px;
+    width: calc(100% - 40px);
+  }
+
+  .cat_background {
+    height: 200px;
+  }
+
+  .white_window h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+}
